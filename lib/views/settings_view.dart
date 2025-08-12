@@ -273,7 +273,7 @@ class SettingsView extends StatelessWidget {
                     style: context.textTheme.bodyMedium,
                   ),
                   onTap: () => launchUrlString(
-                    'https://github.com/imcr1',
+                    'https://github.com/Tarek3222',
                     mode: LaunchMode.externalApplication,
                   ),
                 ),
