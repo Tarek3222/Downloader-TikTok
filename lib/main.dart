@@ -18,7 +18,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // Avoid delaying first frame; request permissions in background
   // Fonts: prevent runtime HTTP fetching to reduce jank and memory
-  GoogleFonts.config.allowRuntimeFetching = false;
+  // GoogleFonts.config.allowRuntimeFetching = false;
   await _requestPermissions();
 
   runApp(const MyApp());
