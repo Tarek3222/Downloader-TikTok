@@ -101,12 +101,6 @@ class MyApp extends StatelessWidget {
             color: isDark ? Colors.white : Colors.black,
           ),
         ),
-        cardTheme: CardTheme(
-          elevation: 0,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
-          ),
-        ),
         inputDecorationTheme: InputDecorationTheme(
           filled: true,
           fillColor: isDark ? Colors.grey[900] : Colors.grey[100],
